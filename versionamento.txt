@@ -10,3 +10,20 @@ git add <nome do arquivo> ou git add .
 Salvar as alterações criando o commit:
 
 git commit -m "Descrição do commit"
+
+Trabalhando com branches
+Para criar uma nova branch:
+
+git branch <nome da nova branch>
+
+Exemplo: git branch develop
+
+Listar as branches existentes, a branch que estiver marcada é a branch atual
+
+git branch -a
+
+Para mudar de branch:
+
+git checkout <nome da branch de destino>
+
+Exemplo: git checkout develop
