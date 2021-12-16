@@ -1,12 +1,16 @@
-Versionando com o Git
-Para iniciar o versionamento Git em um projeto:
+Trabalhando com branches
+Para criar uma nova branch:
 
-git init
+git branch <nome da nova branch>
 
-Adicionar os arquivos para o commit:
+Exemplo: git branch develop
 
-git add <nome do arquivo> ou git add .
+Listar as branches existentes, a branch que estiver marcada é a branch atual
 
-Salvar as alterações criando o commit:
+git branch -a
 
-git commit -m "Descrição do commit"
+Para mudar de branch:
+
+git checkout <nome da branch de destino>
+
+Exemplo: git checkout develop
