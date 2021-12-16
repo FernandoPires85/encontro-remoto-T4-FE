@@ -1,0 +1,12 @@
+Versionando com o Git
+Para iniciar o versionamento Git em um projeto:
+
+git init
+
+Adicionar os arquivos para o commit:
+
+git add <nome do arquivo> ou git add .
+
+Salvar as alterações criando o commit:
+
+git commit -m "Descrição do commit"
