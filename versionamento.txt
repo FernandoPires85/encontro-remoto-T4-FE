@@ -1,29 +1,10 @@
-Versionando com o Git
-Para iniciar o versionamento Git em um projeto:
+Para juntar os códigos das branches
+Supondo que estamos na branch "pagina-login", e queremos adicionar o código dessa branch na branch "develop"
 
-git init
+Precisamos mudar para a branch onde ficarão as alterações (Nesse caso "develop"):
+git checkout develop
 
-Adicionar os arquivos para o commit:
+Agora trazemos os commits da branch "pagina-login" para a branch atual (develop):
+git merge <branch de onde queremos trazer o código>
 
-git add <nome do arquivo> ou git add .
-
-Salvar as alterações criando o commit:
-
-git commit -m "Descrição do commit"
-
-Trabalhando com branches
-Para criar uma nova branch:
-
-git branch <nome da nova branch>
-
-Exemplo: git branch develop
-
-Listar as branches existentes, a branch que estiver marcada é a branch atual
-
-git branch -a
-
-Para mudar de branch:
-
-git checkout <nome da branch de destino>
-
-Exemplo: git checkout develop
+Nesse caso: git merge pagina-login
