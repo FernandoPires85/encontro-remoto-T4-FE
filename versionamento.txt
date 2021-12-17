@@ -1,3 +1,4 @@
+
 Trabalhando com branches
 Para criar uma nova branch:
 
@@ -14,3 +15,15 @@ Para mudar de branch:
 git checkout <nome da branch de destino>
 
 Exemplo: git checkout develop
+
+Para juntar os códigos das branches
+Supondo que estamos na branch "pagina-login", e queremos adicionar o código dessa branch na branch "develop"
+
+Precisamos mudar para a branch onde ficarão as alterações (Nesse caso "develop"):
+git checkout develop
+
+Agora trazemos os commits da branch "pagina-login" para a branch atual (develop):
+git merge <branch de onde queremos trazer o código>
+
+Nesse caso: git merge pagina-login
+
